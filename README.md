@@ -53,10 +53,14 @@ Generates multiple plots to explore trends:
 | `fit_regression_curve.m` | Fits and plots a **linear regression** curve |
 | `covid_dataset.csv` (or `covid_dataset.xlsx`) | COVID-19 dataset used by the program |
 
-> 📄 **Documentation PDFs (included in this repo):**  
-> - `Project_Instructions.pdf` — how to run the project and what each option does  
-> - `Project_Code.pdf` — full code listing for review  
-> - `Project_Results.pdf` — sample outputs, plots, and brief discussion
+## 📄 Documentation PDFs
+
+This repository includes detailed documentation for easier navigation:
+
+- [**Project_Instructions.pdf**](Project_Instructions.pdf) — How to run the project and what each menu option does.  
+- [**Project_Code.pdf**](Project_Code.pdf) — Full MATLAB code listing for review.  
+- [**Project_Results.pdf**](Project_Results.pdf) — Sample outputs, plots, and brief discussion of results.
+
 
 ---
 
