@@ -64,8 +64,6 @@ Generates multiple plots to explore trends:
 ---
 
 ## ▶️ How to Run
-## ▶️ How to Run
-
 1. **Download the project archive**  
    - Click here to download: [📦 MATLAB_Regression_Project_BE1500.zip](report/MATLAB_Regression_Project_BE1500.zip)  
    - Extract the contents to a location on your computer.
