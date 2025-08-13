@@ -53,8 +53,6 @@ Generates multiple plots to explore trends:
 | `fit_regression_curve.m` | Fits and plots a **linear regression** curve |
 | `covid_dataset.csv` (or `covid_dataset.xlsx`) | COVID-19 dataset used by the program |
 
-## 📄 Documentation PDFs
-
 ## 📄 Documentation (included in this repo)
 
 - [**Project_Instructions.pdf**](report/Project_Instructions.pdf) — How to run the project and what each menu option does.  
