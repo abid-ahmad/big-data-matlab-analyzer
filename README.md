@@ -10,12 +10,16 @@ Originally developed as an **Extra Credit Project** for *BE 1500 (Fall 2024)*.
 - Fully interactive — **no code editing required**.
 - End-to-end workflow: *load data → explore → visualize → fit regression → export results*.
 
-## 📌 Overview
-- **Automatic dataset loading** from `covid_dataset.csv` (or `covid_dataset.xlsx`)
-- **Interactive menu UI** — no manual code edits required
-- **Modular user-defined functions** for stats, prediction, visualization, and regression
-- **End-to-end workflow:** describe → predict → visualize → fit curve → (optionally) export
+---
 
+## 🛠 Skills Gained
+- **MATLAB Programming** — scripting, functions, control structures, loops, and data handling.  
+- **Data Analysis** — descriptive statistics, filtering, sorting, and derived column creation.  
+- **Data Visualization** — 2D plots, bar charts, and 3D scatter plots.  
+- **Regression & Curve Fitting** — linear and polynomial model fitting with R² evaluation.  
+- **File I/O in MATLAB** — importing large datasets, exporting results and figures.  
+- **Menu-Driven UI Design** — user-friendly program flow without manual code edits.  
+- **Project Structuring for GitHub** — organized folder structure with documentation and results.  
 ---
 
 ## ⚙️ Features
