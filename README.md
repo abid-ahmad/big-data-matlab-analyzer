@@ -55,12 +55,11 @@ Generates multiple plots to explore trends:
 
 ## 📄 Documentation PDFs
 
-This repository includes detailed documentation for easier navigation:
+## 📄 Documentation (included in this repo)
 
-- [**Project_Instructions.pdf**](Project_Instructions.pdf) — How to run the project and what each menu option does.  
-- [**Project_Code.pdf**](Project_Code.pdf) — Full MATLAB code listing for review.  
-- [**Project_Results.pdf**](Project_Results.pdf) — Sample outputs, plots, and brief discussion of results.
-
+- [**Project_Instructions.pdf**](report/Project_Instructions.pdf) — How to run the project and what each menu option does.  
+- [**Project_Code.pdf**](report/Project_Code.pdf) — Full MATLAB code listing for review.  
+- [**Project_Results.pdf**](report/Project_Results.pdf) — Sample outputs, plots, and brief discussion of results.
 
 ---
 
