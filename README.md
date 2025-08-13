@@ -1,4 +1,3 @@
--------- 
 # 📊 MATLAB Interactive Big-Data Analysis — COVID-19 Dataset
 
 An interactive **MATLAB** application for exploring, analyzing, visualizing, and performing regression on a **large dataset (≥ 2,000 rows)** — all through a **simple menu-driven interface**.  
