@@ -1,9 +1,15 @@
-# 📊 MATLAB Interactive Big-Data Analysis (COVID-19 Dataset)
+---
+# 📊 MATLAB Interactive Big-Data Analysis — COVID-19 Dataset
 
-A MATLAB project that loads a **large dataset (≥ 2,000 rows)** and lets the user interactively **explore, analyze, visualize, and fit regression curves** — all from a simple, menu-driven interface.  
-Built for **BE 1500 (Fall 2024) — Extra Credit Project**.
+An interactive **MATLAB** application for exploring, analyzing, visualizing, and performing regression on a **large dataset (≥ 2,000 rows)** — all through a **simple menu-driven interface**.  
+Originally developed as an **Extra Credit Project** for *BE 1500 (Fall 2024)*.
 
 ---
+
+## 💡 Highlights
+- Works out-of-the-box with the included **COVID-19 dataset**.
+- Fully interactive — **no code editing required**.
+- End-to-end workflow: *load data → explore → visualize → fit regression → export results*.
 
 ## 📌 Overview
 - **Automatic dataset loading** from `covid_dataset.csv` (or `covid_dataset.xlsx`)
