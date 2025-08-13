@@ -62,28 +62,22 @@ Generates multiple plots to explore trends:
 ---
 
 ## ▶️ How to Run
-1. **Download the project archive**  
+
+1. **Download the Project Archive**  
    - Click here to download: [📦 MATLAB_Regression_Project_BE1500.zip](report/MATLAB_Regression_Project_BE1500.zip)  
-   - Extract the contents to a location on your computer.
+   - Extract the ZIP file to a location on your computer.
 
-2. **Organize the files**  
-   - Ensure **all extracted files remain together** in a single folder (do not move or rename individual files).  
-   - The folder structure should match what’s provided in the `.zip` file.
+2. **Keep the Folder Structure Intact**  
+   - Do **not** move or rename individual files after extraction.  
+   - All files must remain together in the same folder as provided in the `.zip`.
 
-3. **Open in MATLAB**  
+3. **Open the Project in MATLAB**  
    - Launch MATLAB.  
-   - In the **Current Folder** panel, navigate to the extracted project folder.  
-   - Alternatively, use:
-     ```matlab
-     cd('path_to_extracted_folder')
-     ```
+   - In the **Current Folder** panel, navigate to the extracted project folder.
 
-4. **Run the main script**  
-   - Locate the main file (e.g., `main.m`) in MATLAB’s file browser.  
-   - Press the **Run** button or type:
-     ```matlab
-     main
-     ```
+4. **Run the Main Script**  
+   - Locate the main script file (e.g., `main.m`).  
+   - Press the **Run** button
 
-5. **Follow the menu prompts**  
-   - The program provides an interactive menu for data exploration, visualization, and regression analysis.
+5. **Follow the On-Screen Menu**  
+   - Use the interactive menu to explore data, create visualizations, and perform regression analysis.
