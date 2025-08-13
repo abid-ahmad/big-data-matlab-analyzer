@@ -1,12 +1,13 @@
 # 📊 MATLAB Interactive Big-Data Analysis — COVID-19 Dataset
 
 An interactive **MATLAB** application for exploring, analyzing, visualizing, and performing regression on a **large dataset (≥ 2,000 rows)** — all through a **simple menu-driven interface**.  
+Dataset sourced from **Kaggle’s COVID-19 data repository**.  
 Originally developed as an **Extra Credit Project** for *BE 1500 (Fall 2024)*.
 
 ---
 
 ## 💡 Highlights
-- Works out-of-the-box with the included **COVID-19 dataset**.
+- Works out-of-the-box with the included **COVID-19 dataset** from Kaggle.
 - Fully interactive — **no code editing required**.
 - End-to-end workflow: *load data → explore → visualize → fit regression → export results*.
 
@@ -20,7 +21,7 @@ Originally developed as an **Extra Credit Project** for *BE 1500 (Fall 2024)*.
 - **File I/O in MATLAB** — importing large datasets, exporting results and figures.  
 - **Menu-Driven UI Design** — user-friendly program flow without manual code edits.  
 - **Project Structuring for GitHub** — organized folder structure with documentation and results.  
----
+- **Working with Public Datasets** — locating, importing, and preprocessing external datasets (Kaggle).  
 
 ## ⚙️ Features
 
