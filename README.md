@@ -1,48 +1,68 @@
-# 📊 MATLAB Interactive Big-Data Analysis
+# 📊 MATLAB Interactive Big-Data Analysis (COVID-19 Dataset)
 
-A MATLAB program that loads a **large dataset (≥ 2,000 rows)** and lets a user interactively explore, clean, analyze, visualize, and **fit regression curves**—all from a simple, menu-driven interface. Built for **BE 1500 (Fall 2024) — Extra Credit Project**.
+A MATLAB project that loads a **large dataset (≥ 2,000 rows)** and lets the user interactively **explore, analyze, visualize, and fit regression curves** — all from a simple, menu-driven interface.  
+Built for **BE 1500 (Fall 2024) — Extra Credit Project**.
 
 ---
 
 ## 📌 Overview
-- **Automatic data loading** from `/data`.
-- **Menu UI** for choosing operations (no code edits required).
-- **User-defined functions (UDFs)** for analysis, visuals, and utilities.
-- **End-to-end workflow:** describe → filter/sort → analyze → visualize → fit curve → export results.
+- **Automatic dataset loading** from `covid_dataset.csv` (or `covid_dataset.xlsx`)
+- **Interactive menu UI** — no manual code edits required
+- **Modular user-defined functions** for stats, prediction, visualization, and regression
+- **End-to-end workflow:** describe → predict → visualize → fit curve → (optionally) export
 
 ---
 
-## ⚙️ Features (what the program can do)
-- **Descriptive statistics:** mean, median, std, min/max, percentiles, IQR.
-- **Sort & filter:** by any column; logical indexing & thresholds.
-- **Derived columns:** simple transforms (e.g., normalize, z-score).
-- **Comparisons:** group-by summaries (e.g., category averages).
-- **Visualizations (at least two):**
-  - 2D plots (line/scatter)
-  - 3D scatter/surface (if applicable)
-  - Histograms
-  - Bar/Pie charts
-  - Tables (printed neatly to console / file)
-- **Curve fitting / regression:** linear or polynomial fit with R².
-- **Export:** figures (`/results/figures`) and CSV summaries (`/results/tables`).
+## ⚙️ Features
+
+### 1) Descriptive Statistics
+Calculates:
+- **Total** new cases  
+- **Mean** new cases (handles missing values)  
+- **Min / Max / Range** of new cases
+
+> Output is printed neatly to the MATLAB Command Window.
+
+### 2) Trend Prediction
+Simple signal-based prediction using historical averages:
+- **Average New Cases (Overall)**
+- **Predicted New Cases (Next Day)**
+- **Average New Deaths (Overall)**
+- **Predicted New Deaths (Next Day)**
+
+### 3) Visualization
+Generates multiple plots to explore trends:
+- **2D Line Plot:** New COVID-19 cases over time  
+- **Bar Chart:** New deaths over time  
+- **3D Scatter:** Cases vs. deaths vs. days
+
+### 4) Regression Curve Fitting
+- Fits a **linear regression** to COVID-19 cases vs. time  
+- Overlays **actual vs. fitted** line on the same plot (with legend, labels, and grid)
 
 ---
 
-## 🧱 Architecture (meets assignment requirements)
-- **Main script:** `main_script.m`
-  - Loads dataset automatically from `/data`.
-  - Presents a **menu** of tasks and loops until the user exits.
-  - Calls all user-defined functions.
-- **User-defined functions (≥ 2)**
-  - Example (actual filenames may differ):
-    - `compute_descriptives.m` – stats
-    - `sort_by_column.m` – sorting
-    - `filter_by_rule.m` – logical indexing
-    - `plot_histogram.m`, `plot_scatter2d.m`, `plot_bar.m` – visualizations
-    - `fit_linear_regression.m` – curve fitting
-  - Each function has **input & output arguments** and uses at least one of:
-    - `if/else`, `switch/case`, `for/while` loops, or **nested loops**.
+## 🧱 File Architecture
+
+| File | Purpose |
+|---|---|
+| `main.m` | **Entry point** — loads data and shows the interactive menu |
+| `descriptive_stats.m` | Computes total, mean, min, max, and range of new cases |
+| `predict_model.m` | Computes overall averages and **next-day** predictions |
+| `visualize_results.m` | Creates **2D**, **bar**, and **3D** plots |
+| `fit_regression_curve.m` | Fits and plots a **linear regression** curve |
+| `covid_dataset.csv` (or `covid_dataset.xlsx`) | COVID-19 dataset used by the program |
+
+> 📄 **Documentation PDFs (included in this repo):**  
+> - `Project_Instructions.pdf` — how to run the project and what each option does  
+> - `Project_Code.pdf` — full code listing for review  
+> - `Project_Results.pdf` — sample outputs, plots, and brief discussion
 
 ---
 
-## 🗂 Repository Structure
+## ▶️ How to Run
+
+1. **Clone or download** this repository.
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
