@@ -5,12 +5,13 @@ Dataset sourced from **Kaggle’s COVID-19 data repository**.
 Originally developed as an **Extra Credit Project** for *BE 1500 (Fall 2024)*.
 
 ---
+## ✨ Features & Highlights
 
-## 💡 Highlights
-- Works out-of-the-box with the included **COVID-19 dataset** from Kaggle.
-- Fully interactive — **no code editing required**.
-- End-to-end workflow: *load data → explore → visualize → fit regression → export results*.
-
+- 🚀 **Ready to run** — comes with an included COVID-19 dataset from Kaggle.  
+- 🖱 **No coding required** — fully interactive, menu-based controls.  
+- 📊 **Comprehensive analysis** — supports descriptive statistics, regression, and data visualization.  
+- 📈 **Multiple visualization modes** — line, scatter, bar, and histogram plots.  
+- 📂 **Handles big data** — efficient MATLAB handling for datasets with thousands of rows.  
 ---
 
 ## 🛠 Skills Gained
